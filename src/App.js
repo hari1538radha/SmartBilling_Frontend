@@ -2,7 +2,7 @@
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-green-600">
      SmartBilling
     </div>
   );
