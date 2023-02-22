@@ -1,9 +1,9 @@
-
+import Admin from "./Pages/Admin";
 
 function App() {
   return (
-    <div className="bg-green-600">
-     SmartBilling
+    <div className="">
+      <Admin/>
     </div>
   );
 }
