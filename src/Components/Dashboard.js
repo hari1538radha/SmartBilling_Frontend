@@ -1,14 +1,18 @@
 import React from "react";
-import User from "./Images/user.jpg";
+import User from "./Images/user.png";
+import ProductDisplayAdmin from "./ProductDisplayAdmin";
 const Dashboard = () => {
+
   const Dashboardmenu = [
     "Products",
     "Addproduct",
     "UpdateProduct",
     "Deleteproduct",
   ];
+
   return (
-    <div className=" mt-7 ml-14 ">
+    <div className="flex">
+     <div className=" mt-7 ml-14 ">
       <div className="w-64 h-64 flex flex-col items-center justify-center bg-neutral-200 rounded-2xl ">
         <div>
           <img className="rounded-full w-[88px] h-[88px]" src={User}></img>
@@ -33,7 +37,11 @@ const Dashboard = () => {
           </div>
         }
       </div>
+   
     </div>
+     <ProductDisplayAdmin/>
+    </div>
+   
   );
 };
 
