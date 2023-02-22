@@ -33,13 +33,13 @@ const ProductDisplayAdmin = () => {
                             {obj.content1}:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{obj.Details1}
                           </p>
                           <p className="mt-2">
-                            {obj.content2}   :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{obj.Details1}
+                            {obj.content2}   :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{obj.Details2}
                           </p>
                           <p className="mt-2">
-                            {obj.content3}    :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{obj.Details1}
+                            {obj.content3}    :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{obj.Details3}
                           </p>
                           <p className="mt-2">
-                            {obj.content4}   :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{obj.Details1}
+                            {obj.content4}   :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{obj.Details4}
                           </p>
                         </div>
                       ))}

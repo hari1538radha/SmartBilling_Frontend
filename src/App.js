@@ -1,9 +1,11 @@
 import Admin from "./Pages/Admin";
-
+import AdminAddProducts from "./Pages/AdminAddProducts";
 function App() {
   return (
     <div className="">
-      <Admin/>
+      <Admin />
+
+      {/* <AdminAddProducts/> */}
     </div>
   );
 }
